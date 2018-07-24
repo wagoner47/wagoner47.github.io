@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Homepage"
+title                    : "Erika Lynn Wagoner"
 title_separator          : "-"
-name                     : "Name1 Name2"
-description              : "Name's academic homepage"
+name                     : "Erika Lynn Wagoner"
+description              : "Erika's academic homepage"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -100,21 +100,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Name1 Name2"
+  name             : "Erika Lynn Wagoner"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Master of CSS"
+  bio              : "Physics PhD student working in cosmology and astrophysics"
   location         : 
-  employer         : 
-  email            : "email@email.com"
+  employer         : "University of Arizona"
+  email            : "wagoner47@email.arizona.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        : 
+  bitbucket        : "wagoner47"
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "wagoner47"
   gitlab           :
   google_plus      :
   keybase          :
