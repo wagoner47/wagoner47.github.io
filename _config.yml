@@ -287,6 +287,9 @@ collections:
   code:
     output: true
     permalink: /:collection/:path/
+  travel:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -325,6 +328,13 @@ defaults:
       type: code
     values:
       layout: single-code
+      author_profile: true
+  # _travel
+  - scope:
+      path: ""
+      type: travel
+    values:
+      layout: single-travel
       author_profile: true
 
 
