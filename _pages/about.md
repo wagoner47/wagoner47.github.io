@@ -27,3 +27,5 @@ I love music, and I play flute, piccolo, and some piano. I am also actively invo
 I am an occaisonal knitter, although I always feel guilty that I don't spend more time on it.
 
 Red pandas are my favorite animal ever! They are just so adorable, especially sleeping in a tree using their tails as a blanket. My boyfriend and I enjoy traveling to different zoos (especially with red pandas), and we have also done a wildlife encounter with them. I donate/ask for people to make donation in my name to the red panda network, and think it would be awesome to go on one of their eco-trips in the future.
+
+![red panda picture](../images/red_panda_cbus_zoo_2.jpg)
