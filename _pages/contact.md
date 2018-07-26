@@ -6,4 +6,4 @@ author_profile: true
 classes: wide
 ---
 
-Here's my contact info
+The easiest way to contact me is via email. Find the link in the sidebar.
