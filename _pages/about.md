@@ -14,7 +14,7 @@ Graduate student. PhD candidate. Cosmologist. Red panda enthusiast. Black belt. 
 
 I worked on a project in undergrad callibrating a color-temperature-metallicity relation for SDSS to search for low-metallicity M dwarfs. The work was done with Dr. Jennifer Johnson and Dr. Sarah Schmidt, and resulted in both my undergraduate thesis as well as a paper updating my results with a second year of data.
 
-My main project currently is working on an optimal method for using redMaGiC galaxies in studying baryon acoustic oscillations with my advisor, Dr. Eduardo Rozo. Explain some stuff here.
+My main project currently is working on an optimal method for using redMaGiC galaxies in studying [baryon acoustic oscillations](http://w.astro.berkeley.edu/~mwhite/bao/) with my advisor, Dr. Eduardo Rozo. 
 
 I am also involved in a project with the LSST DESC large scale structure working group to analyze data from HSC. My portion of this is working on a way to get systematics maps from single exposure information. I am collaborating with Dr. David Alonso on this project.
 
