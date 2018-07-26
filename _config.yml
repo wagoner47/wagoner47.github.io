@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Erika Lynn Wagoner"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "images/Erika_Wagoner.jpg"
   bio              : "Physics PhD student working in cosmology and astrophysics"
   location         : 
   employer         : "University of Arizona"
