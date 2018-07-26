@@ -41,9 +41,9 @@ I was working on a project for modeling the light curves of rotating neutron sta
 **2013-2014**<br>
 Undergraduate Research<br>
 This project was working on finding the volume complete metallicity distribution function for low mass stars (M and K dwarfs) in SDSS. The part I was involved with was specifically being able to model the temperature given colors from SDSS, later extended to also model metallicity and use colors also from 2MASS and WISE.
-*Relevant Publications: <br>
-<a href="../publications/wagoner47" class="uline">Wagoner 2014</a><br>
-<a href="../publications/schmidt_et_al_2016" class="uline">Schmidt et al. 2016*<br>
+*Relevant Publications: *<br>
+*<a href="../publications/wagoner47" class="uline">Wagoner 2014</a>*<br>
+*<a href="../publications/schmidt_et_al_2016" class="uline">Schmidt et al. 2016*<br>
 
 **2012**<br>
 Undergraduate Research<br>
