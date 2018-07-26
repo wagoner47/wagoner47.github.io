@@ -12,7 +12,7 @@ Graduate student. PhD candidate. Cosmologist. Red panda enthusiast. Black belt. 
 
 ## Professional
 
-I worked on a project in undergrad callibrating a color-temperature-metallicity relation for SDSS to search for low-metallicity M-dwarfs. The work was done with Dr. Jennifer Johnson and Dr. Sarah Schmidt, and resulted in both my undergraduate thesis as well as a paper updating my results with a second year of data.
+I worked on a project in undergrad callibrating a color-temperature-metallicity relation for SDSS to search for low-metallicity M dwarfs. The work was done with Dr. Jennifer Johnson and Dr. Sarah Schmidt, and resulted in both my undergraduate thesis as well as a paper updating my results with a second year of data.
 
 My main project currently is working on an optimal method for using redMaGiC galaxies in studying baryon acoustic oscillations with my advisor, Dr. Eduardo Rozo. Explain some stuff here.
 
