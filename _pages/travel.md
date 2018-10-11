@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Workshops and Meetings Attended"
+title: "Workshops, Meetings, and other Travel"
 permalink: /travel/
 author_profile: true
 classes: wide
