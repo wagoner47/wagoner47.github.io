@@ -7,7 +7,7 @@ date: 2018-09-27
 location: "CTIO/AURA, La Serena, CL"
 ---
 
-I observed on the Blanco 4m telescope at Cerro Tololo Inter-American Observatory in Vicu\~{n}a, Chile. I was observing for the Dark Energy Survey for Y6 observations, and I was there for almost a week, although only observing September 27-30.
+I observed on the Blanco 4m telescope at Cerro Tololo Inter-American Observatory in Vicu\\~{n}a, Chile. I was observing for the Dark Energy Survey for Y6 observations, and I was there for almost a week, although only observing September 27-30.
 
 Unfortunately, we were completely clouded out for two of the four nights, and we had bright time when it was clear, but it was a great experience and I got to see the Milky Way!
 
