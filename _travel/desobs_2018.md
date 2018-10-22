@@ -13,4 +13,4 @@ Unfortunately, we were completely clouded out for two of the four nights, and we
 
 <img src="../images/IMG_2136.jpg">
 
-<img src="../images/IMG_2133.jpg">
+<img src="../images/mw_over_dome.jpg" alt="Milky Way over one of the domes">
