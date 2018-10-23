@@ -24,4 +24,4 @@
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
-<div class="page__footer-build-status">{{ site.time | date_to_rfc822 }}</div>
+<div class="page__footer-build-status">{{ "Last build time: " }} {{ site.time | time: "%a, %d %b, %Y, %H:%M:%S %Z" }}</div>
