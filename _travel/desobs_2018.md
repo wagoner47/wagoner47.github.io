@@ -12,6 +12,6 @@ I observed on the Blanco 4m telescope at Cerro Tololo Inter-American Observatory
 
 Unfortunately, we were completely clouded out for two of the four nights, and we had bright time when it was clear, but it was a great experience and I got to see the Milky Way!
 
-<img src="../images/IMG_2136.jpg" alt="Milky Way from Cerro Tololo" class="center">
+<img src="../images/IMG_2136.jpg" title="Milky Way from Cerro Tololo" alt="A picture of the Milky Way as seen from just outside the Blanco dome" class="center">
 
-<img src="../images/IMG_2133.jpg" alt="Milky Way over one of the domes" class="center">
+<img src="../images/IMG_2133.jpg" title="Milky Way over one of the domes" alt="A picture of the Milky Way over one of the other domes at CTIO" class="center">
