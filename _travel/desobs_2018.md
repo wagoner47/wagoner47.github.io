@@ -2,6 +2,7 @@
 title: "DES Observing"
 collection: travel
 type: "Observing Run"
+permalink: /travel/desobs-2018
 venue: "Blanco Telescope, CTIO"
 date: 2018-09-27
 location: "CTIO/AURA, La Serena, CL"
@@ -15,4 +16,4 @@ Unfortunately, we were completely clouded out for two of the four nights, and we
 
 [comment]: <img src="../images/mw_over_dome.jpg" alt="Milky Way over one of the domes" class="center">
 
-<img src="../../images/red_panda_cbus_zoo_2.jpg" alt="Milky Way over one of the domes" class="center">
+<img src="../images/red_panda_cbus_zoo_2.jpg" alt="Milky Way over one of the domes" class="center">
