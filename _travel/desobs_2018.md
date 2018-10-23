@@ -13,6 +13,6 @@ Unfortunately, we were completely clouded out for two of the four nights, and we
 
 [comment]: <img src="../images/IMG_2136.jpg">
 
-[comment]: "../images/mw_over_dome.jpg" alt="Milky Way over one of the domes"
+[comment]: <img src="../images/mw_over_dome.jpg" alt="Milky Way over one of the domes" class="center">
 
 <img src="wagoner47.github.io/images/red_panda_cbus_zoo_2.jpg" alt="Milky Way over one of the domes" class="center">
