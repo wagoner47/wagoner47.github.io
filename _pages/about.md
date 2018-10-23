@@ -28,4 +28,4 @@ I am an occaisonal knitter, although I always feel guilty that I don't spend mor
 
 Red pandas are my favorite animal ever! They are just so adorable, especially sleeping in a tree using their tails as a blanket. My boyfriend and I enjoy traveling to different zoos (especially with red pandas), and we have also done a wildlife encounter with them. I donate/ask for people to make donation in my name to the red panda network, and think it would be awesome to go on one of their eco-trips in the future.
 
-<img src="../images/red_panda_cbus_zoo_2.jpg" alt="Red panda at Columbus zoo" style="max-width:100%; max-height:50vh; margin:auto; width:auto; height:auto;">
+<img src="../images/red_panda_cbus_zoo_2.jpg" alt="Red panda at Columbus zoo" style="max-width:100%; max-height:50vh; margin:auto; width:auto; height:auto;" class="center">
