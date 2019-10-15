@@ -26,11 +26,16 @@
 
     <!-- Publications -->
     {% elsif post.collection == 'publications' %}
-    <div class="talk_venue">
-      {% if post.venue == 'In Prep' %}
+    {% if post.authorlist %}
+    <div class="publication_authors">
+      {{ post.authorlist | markdownify }}
+    </div>
+    {% endif %}
+    <div class="publication_venue">
+      {% if post.publ == 'false' %}
         {{post.date | default: "1900-01-01" | date: "%Y" }}, In Prep
       {% else %}
-        Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+        <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
       {% endif %}
     </div>
 
