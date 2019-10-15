@@ -41,8 +41,8 @@ classes: wide
       {% endunless %}
       
       <!-- Author List -->
-      {% if page.author_list %}
-      <p class="publication_authors">{{ page.author_list | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% if page.authorlist %}
+      <p class="publication_authors">{{ page.authorlist | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       
       <!-- DOI link -->
