@@ -45,13 +45,15 @@ classes: wide
       <p class="publication_authors">{{ page.authorlist | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       
-      <!-- DOI link -->
+      <!-- Handle link -->
       {% if page.doi %}
       <p class="publication_date"><a href="https://doi.org/{{ page.doi }}">doi:{{ page.doi }}</a></p>
       {% elsif page.hdl %}
       <p class="publication_date"><a href="https://hdl.handle.net/{{ page.hdl }}">hdl:{{ page.hdl }}</a></p>
       {% elsif page.ascl %}
-      <p class="publication_date"><a href="https://ascl.net/{{ page.ascl }}"><img src="https://img.shields.io/badge/ascl-{{ page.ascl }}-blue.svg?colorB=262255" alt="ascl:{{ page.ascl }}"/></a>
+      <p class="publication_date"><a href="https://ascl.net/{{ page.ascl }}"><img src="https://img.shields.io/badge/ascl-{{ page.ascl }}-blue.svg?colorB=262255" alt="ascl:{{ page.ascl }}"/></a></p>
+      {% elsif page.arxiv %}
+      <p class="publication_date"><a href="https://arxiv.org/abs/{{ page.arxiv }}">arxiv:{{ page.arxiv }}</a></p>
       {% endif %}
 
       <!--Date Line-->
