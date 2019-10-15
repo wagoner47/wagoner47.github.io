@@ -29,24 +29,48 @@ classes: wide
       <!-- Header-->
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
-          {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.typeset_title %}
+          <h1 id="page-title" class="page__title" itemprop="headline">{{ page.typeset_title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+          {% elsif page.title %}
+          <h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>
+          {% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
         </header>
       {% endunless %}
+      
+      <!-- DOI link -->
+      {% if page.doi %}
+      <p class=><a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></p>
+      {% endif %}
 
       <!--Date Line-->
       {% if page.date %}
         {% if page.publ == "false" %}
-            <p class="page__date">
+            <p class="pubplication_date">
               <strong>In Prep</strong> - This page will be udpated upon submission and publication.
             </p>
         {% else %}
-            <p class="page__date">
+            <p class="publication_date">
               <strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>Published:</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
             </p>
         {% endif %}
+      {% endif %}
+    
+      <!-- Publisher -->
+      {% if page.venue %}
+      <p class="publication_venue">{{ page.venue | markdownify }}</p>
+      {% endif %}
+      
+      <!-- Author List -->
+      {% if page.author_list %}
+      <p class="publication_authors">{{ page.author_list | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% endif %}
+      
+      <!-- Abstract -->
+      {% if page.excerpt %}
+      <p class="page__content" itemprop="text"> {{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
 
       <!--Page content-->
