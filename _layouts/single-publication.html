@@ -60,7 +60,7 @@ classes: wide
     
       <!-- Publisher -->
       {% if page.venue %}
-      <p class="publication_venue">{{ page.venue | markdownify }}</p>
+      <p class="publication_venue">Published in: {{ page.venue | markdownify }}</p>
       {% endif %}
       
       <!-- Author List -->
@@ -70,6 +70,7 @@ classes: wide
       
       <!-- Abstract -->
       {% if page.excerpt %}
+      <h3 itemprop="headline">Abstract:</h3>
       <p class="page__content" itemprop="text"> {{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
 
