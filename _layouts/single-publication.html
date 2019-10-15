@@ -50,6 +50,8 @@ classes: wide
       <p class="publication_date"><a href="https://doi.org/{{ page.doi }}">doi:{{ page.doi }}</a></p>
       {% elsif page.hdl %}
       <p class="publication_date"><a href="https://hdl.handle.net/{{ page.hdl }}">hdl:{{ page.hdl }}</a></p>
+      {% elsif page.ascl %}
+      <p class="publication_date"><a href="https://ascl.net/{{ page.ascl }}"><img src="https://img.shields.io/badge/ascl-{{ page.ascl }}-blue.svg?colorB=262255" alt="ascl:{{ page.ascl }}"/></a>
       {% endif %}
 
       <!--Date Line-->
