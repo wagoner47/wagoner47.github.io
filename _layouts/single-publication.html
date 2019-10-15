@@ -48,6 +48,8 @@ classes: wide
       <!-- DOI link -->
       {% if page.doi %}
       <p class="publication_date"><a href="https://doi.org/{{ page.doi }}">doi:{{ page.doi }}</a></p>
+      {% elsif page.hdl %}
+      <p class="publication_date"><a href="https://hdl.handle.net/{{ page.hdl }}">hdl:{{ page.hdl }}</a></p>
       {% endif %}
 
       <!--Date Line-->
