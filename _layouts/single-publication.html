@@ -40,9 +40,14 @@ classes: wide
         </header>
       {% endunless %}
       
+      <!-- Author List -->
+      {% if page.author_list %}
+      <p class="publication_authors">{{ page.author_list | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% endif %}
+      
       <!-- DOI link -->
       {% if page.doi %}
-      <p class=><a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></p>
+      <p class=><strong>DOI:</strong> <a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></p>
       {% endif %}
 
       <!--Date Line-->
@@ -60,12 +65,7 @@ classes: wide
     
       <!-- Publisher -->
       {% if page.venue %}
-      <p class="publication_venue">Published in: {{ page.venue | markdownify }}</p>
-      {% endif %}
-      
-      <!-- Author List -->
-      {% if page.author_list %}
-      <p class="publication_authors">{{ page.author_list | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      <p class="publication_venue"><strong>Published in:</strong> {{ page.venue | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       
       <!-- Abstract -->
