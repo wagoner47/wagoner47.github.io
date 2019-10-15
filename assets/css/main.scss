@@ -12,25 +12,25 @@
 }
 .archive__item-title a:hover {
   text-decoration: underline;
-  color: #0292ca;
+  color: $link-color-hover;
 }
 
 .talk_date {
-  color: #797D7F;
-  font-size: .7em;
+  color: $muted-text-color;
+  font-size: $type-size-7;
 }
 
 .talk_venue {
-  font-size: .7em;
+  font-size: $type-size-7;
 }
 
 .travel_date {
-  color: #797D7F;
-  font-size: .7em;
+  color: $muted-text-color;
+  font-size: $type-size-7;
 }
 
 .travel_venue {
-  font-size: .7em;
+  font-size: $type-size-7;
 }
 
 .small_grey {
@@ -38,7 +38,32 @@
 }
 
 .cv_font {
-  font-size: .65em;
+  font-size: $type-size-6;
+}
+
+.publication_date {
+  color: $muted-text-color;
+  font-size: $type-size-7;
+}
+
+.publication_authors {
+  font-size: $type-size-6;
+}
+
+.publication_title {
+  text-decoration: none;
+  color: $text-color;
+  font-size: $type-size-4;
+}
+
+.publication_title:hover {
+  color: $link-color-hover;
+  font-size: $type-size-4;
+  text-decoration: underline;
+}
+
+.publication_venue {
+  font-size: $type-size-7;
 }
 
 .center {
