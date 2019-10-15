@@ -7,7 +7,6 @@ author_list: **Erika L. Wagoner**
 date: 2014-05-01
 venue: The Ohio State University Knowledge Bank
 publ: true
-classes: wide
 ---
 ## Summary
 We studied the relation between color, temperatur, and metallicity for 37 stars selected as M dwarfs based on temperature and surface gravity with clean Sloan Digital Sky Survey (SDSS) photometry and spectra from the year 1 data of the Apache Point Observatory Galactic Evolution Experiment (APOGEE). We compared the colors and temperatures of these stars to two sets of isochrones, with the hope of finding an isochrone model that could be used to predict the absolute magnitudes of a larger set of M dwarfs with less accurate temperatures from the Sloan Extension for Galactic Understanding and Exploration (SEGUE). This would be used with the SEGUE colors to get distances, and combined with metallicities to construct an volume-complete M dwarf metallicity distribution function. The paper found that the sample was not large enough to make any strong conclusions, but that the two isochrones explored did not fit the available data well.
