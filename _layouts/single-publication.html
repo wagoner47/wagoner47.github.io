@@ -48,12 +48,18 @@ classes: wide
       <!-- Handle link -->
       {% if page.doi %}
       <p class="publication_date"><a href="https://doi.org/{{ page.doi }}">doi:{{ page.doi }}</a></p>
-      {% elsif page.hdl %}
+      {% endif %}
+      {% if page.hdl %}
       <p class="publication_date"><a href="https://hdl.handle.net/{{ page.hdl }}">hdl:{{ page.hdl }}</a></p>
-      {% elsif page.ascl %}
-      <p class="publication_date"><a href="https://ascl.net/{{ page.ascl }}"><img src="https://img.shields.io/badge/ascl-{{ page.ascl }}-blue.svg?colorB=262255" alt="ascl:{{ page.ascl }}"/></a></p>
-      {% elsif page.arxiv %}
+      {% endif %}
+      {% if page.arxiv %}
       <p class="publication_date"><a href="https://arxiv.org/abs/{{ page.arxiv }}">arxiv:{{ page.arxiv }}</a></p>
+      {% endif %}
+      {% if page.bibcode %}
+      <p class="publication_date"><strong>Bibcode: </strong><a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}/abstract"</a></p>
+      {% endif %}
+      {% if page.ascl %}
+      <p class="publication_date"><a href="https://ascl.net/{{ page.ascl }}"><img src="https://img.shields.io/badge/ascl-{{ page.ascl }}-blue.svg?colorB=262255" alt="ascl:{{ page.ascl }}"/></a></p>
       {% endif %}
 
       <!--Date Line-->
