@@ -21,6 +21,6 @@ This is the paper published to describe the Core Cosmology Library (CCL) created
 I am on the author list because I contributed to the code before it was published. As discussed on my [page for the CCL code](/code/ccl), I helped to resolve an issue during a hack session at the DESC collaboration meeting in July 2017.
 
 ### Recommended citation
-Chisari, Nora Elisa *et al.* 2019 ApJS 242 2
+Chisari, N. E. et al. 2019 ApJS 242 2
 
 Or export the citation in many formats [here](https://ui.adsabs.harvard.edu/abs/2019ApJS..242....2C/exportcitation).
