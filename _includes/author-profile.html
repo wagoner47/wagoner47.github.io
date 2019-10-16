@@ -167,6 +167,14 @@
           </a>
         </li>
       {% endif %}
+      
+      {% if author.orcid %}
+        <li>
+          <a href="https://orcid.org/{{ author.orcid }}" itemprop="sameAs">
+            <i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID
+          </a>
+      </li>
+      {% endif %}
 
       {% if author.stackoverflow %}
         <li>
