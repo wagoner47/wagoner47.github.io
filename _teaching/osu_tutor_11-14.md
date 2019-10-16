@@ -2,7 +2,7 @@
 title: "Undergraduate Tutor"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/osu-tutor
+permalink: /teaching/osu-tutor-11-14
 university: "Ohio State University"
 date: 2011-09-01
 semester: "Fall 2011 - Summer 2014"
