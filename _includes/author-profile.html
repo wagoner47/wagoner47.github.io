@@ -163,7 +163,7 @@
       {% if author.googlescholar %}
         <li>
           <a href="{{ author.gitlab }}" itemprop="sameAs">
-            <i class="ai ai-google-scholar ai-fw"></i> Google Scholar
+            <i class="ai ai-fw ai-google-scholar" aria-hidden="true"></i> Google Scholar
           </a>
         </li>
       {% endif %}
@@ -171,7 +171,7 @@
       {% if author.orcid %}
         <li>
           <a href="https://orcid.org/{{ author.orcid }}" itemprop="sameAs">
-            <i class="ai ai-orcid" aria-hidden="true"></i> ORCID
+            <i class="fab fa-fw fa-orcid" aria-hidden="true"></i> ORCID
           </a>
       </li>
       {% endif %}
@@ -187,7 +187,7 @@
       {% if author.stackexchange %}
         <li>
           <a href="https://www.stackexchange.com/users/{{ author.stackexchange }}" itemprop="sameAs">
-            <i class="fab fa-stack-exchange" aria-hidden="true"></i> StackExchange
+            <i class="fab fa-fw fa-stack-exchange" aria-hidden="true"></i> StackExchange
           </a>
         </li>
       {% endif %}
