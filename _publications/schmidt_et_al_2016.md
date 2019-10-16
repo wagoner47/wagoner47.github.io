@@ -8,8 +8,12 @@ excerpt: We present the effective temperatures ($T_{\rm eff}$), metallicities, a
 date: 2016-05-13
 venue: MNRAS
 doi: 10.1093/mnras/stw1139
+arxiv: 1605.03732
+bibcode: 2016MNRAS.460.2611S
 publ: true
 ---
+
+*****
 
 ### Summary
 This is an exploration of the relation between color, temperature, and metallity for low mass stars in the Sloan Digital Sky Survey (SDSS), the Two Micron All-Sky Survey (2MASS), and the Wide-field Infrared Survey Explorer (WISE). The colors, temperatures, and metallicities for K and M dwarfs with accurate infrared spectra are compared with isochrone model grids and color-metallicity relations. This can be used as a way to estimate the temperatures and metallicities in a large sample of such stars with colors but noisy spectra. These estimates can then be used in constructing a metallicity distribution function for low mass stars.
@@ -17,9 +21,7 @@ This is an exploration of the relation between color, temperature, and metallity
 ### Contribution
 This is primarily a continuation of my [undergraduate thesis project](wagoner-2014) with a much larger data set and more isochrones tested.
 
-[NASA ADS page for this paper](https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.2611S/abstract)
-
 ### Recommended citation
 Sarah J. Schmidt, Erika L. Wagoner, Jennifer A. Johnson, James R. A. Davenport, Keivan G. Stassun, Diogo Souto, Jian Ge; Examining the relationships between colour, Teff, and [M/H] for APOGEE K and M dwarfs, Monthly Notices of the Royal Astronomical Society, Volume 460, Issue 3, 11 August 2016, Pages 2611–2624, https://doi.org/10.1093/mnras/stw1139
 
-Or export the citation [here](https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.2611S/exportcitation)
+Or export the citation in many formats [here](https://ui.adsabs.harvard.edu/abs/2016MNRAS.460.2611S/exportcitation).
