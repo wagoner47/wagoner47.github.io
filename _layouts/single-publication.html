@@ -41,7 +41,9 @@ classes: wide
       {% endunless %}
       
       <!-- Author List -->
-      {% if page.authorlist %}
+      {% if page.authorlist_long %}
+      <p class="publication_authors">{{ page.authorlist_long | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% elsif page.authorlist %}
       <p class="publication_authors">{{ page.authorlist | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       
