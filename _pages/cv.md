@@ -13,7 +13,7 @@ a.uline {text-decoration:underline;}
 
 {% include base_path %}
 
-<a href="../files/CV.pdf" class="uline">Click here for a full pdf copy of my CV</a>
+<a href="../files/ELW_Online_Resume.pdf" class="uline">Click here for a full and updated pdf copy of my CV</a>
 
 ## Education
 ---
