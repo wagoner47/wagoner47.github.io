@@ -1,7 +1,6 @@
 ---
 title: 'Core Cosmology Library: Precision Cosmological Predictions for LSST'
 collection: publications
-permalink: /publications/chisari-et-al-2019
 authorlist: Chisari, Nora Elisa [and 30 others including **Wagoner, Erika L.**]
 excerpt: The Core Cosmology Library (CCL) provides routines to compute basic cosmological observables to a high degree of accuracy, which have been verified with an extensive suite of validation tests. Predictions are provided for many cosmological quantities, including distances, angular power spectra, correlation functions, halo bias, and the halo mass function through state-of-the-art modeling prescriptions available in the literature. Fiducial specifications for the expected galaxy distributions for the Large Synoptic Survey Telescope (LSST) are also included, together with the capability of computing redshift distributions for a user-defined photometric redshift model. A rigorous validation procedure, based on comparisons between CCL and independent software packages, allows us to establish a well-defined numerical accuracy for each predicted quantity. As a result, predictions for correlation functions of galaxy clustering, galaxy─galaxy lensing, and cosmic shear are demonstrated to be within a fraction of the expected statistical uncertainty of the observables for the models and in the range of scales of interest to LSST. CCL is an open source software package written in C, with a Python interface and publicly available at <a href="https://github.com/LSSTDESC/CCL">https://github.com/LSSTDESC/CCL</a>.
 date: 2019-05-01
