@@ -135,6 +135,7 @@ classes: wide
                   <a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}">{{ page.journal }}{{ page.date | date: "%m" }}({{ year }}){{ page.page }}</a>
                 {% else %}
                   {{ page.journal }}{{ page.date | date: "%m" }}({{ year }}){{ page.page }}
+                {% endif %}
               {% endif %}
             {% endif %}
           {% elsif page.arxiv And page.arxiv != "" And page.arxiv != nil %}
