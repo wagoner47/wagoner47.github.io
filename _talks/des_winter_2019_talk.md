@@ -1,6 +1,7 @@
 ---
 title: "Linear Model Systematics Mitigation"
 collection: talks
+permalink: /talks/des-winter-2019-talk
 type: "Parallel Session"
 venue: "DES Winter 2019 Collaboration Meeting"
 date: 2019-11-05
