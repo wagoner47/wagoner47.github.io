@@ -1,5 +1,5 @@
 ---
-title: Clusters Have Edges: The Projected Phase Space Structure of SDSS redMaPPer Clusters
+title: "Clusters Have Edges: The Projected Phase Space Structure of SDSS redMaPPer Clusters"
 collection: publications
 authorlist: Paxton Tomooka, Eduardo Rozo, __Erika L. Wagoner__, _et al_
 authorlist_long: Paxton Tomooka; Eduardo Rozo; Erika L. Wagoner; Han Aung; Daisuke Nagai; Sasha Safonova
