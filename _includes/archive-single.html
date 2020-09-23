@@ -16,7 +16,7 @@
 
     <!-- Post the title -->
     <h2 class="archive__item-title" itemprop="headline">
-      <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+      <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
     </h2>
 
     <!-- Talks -->
