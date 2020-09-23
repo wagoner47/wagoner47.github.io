@@ -41,26 +41,26 @@ classes: wide
       {% endunless %}
       
       <!-- Author List -->
-      {% if page.authorlist_long %}
-      <p class="publication_authors">{{ page.authorlist_long | markdownify | remove: "<p>" | remove: "</p>" }}</p>
-      {% elsif page.authorlist %}
+      {% if page.authorlist %}
       <p class="publication_authors">{{ page.authorlist | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% elsif page.authorlist_long %}
+      <p class="publication_authors">{{ page.authorlist_long | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       
       <!-- Handle link -->
-      {% if page.doi %}
+      {% if page.doi And page.doi != "" And page.doi != nil %}
       <p class="publication_date"><a href="https://doi.org/{{ page.doi }}">doi:{{ page.doi }}</a></p>
       {% endif %}
-      {% if page.hdl %}
+      {% if page.hdl And page.hdl != "" And page.hdl != nil %}
       <p class="publication_date"><a href="https://hdl.handle.net/{{ page.hdl }}">hdl:{{ page.hdl }}</a></p>
       {% endif %}
-      {% if page.arxiv %}
+      {% if page.arxiv And page.arxiv != "" And page.arxiv != nil %}
       <p class="publication_date"><a href="https://arxiv.org/abs/{{ page.arxiv }}">arxiv:{{ page.arxiv }}</a></p>
       {% endif %}
-      {% if page.bibcode %}
+      {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
       <p class="publication_date"><strong>Bibcode: </strong><a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}/abstract">{{ page.bibcode }}</a></p>
       {% endif %}
-      {% if page.ascl %}
+      {% if page.ascl And page.ascl != "" And page.ascl != nil %}
       <p class="publication_date"><a href="https://ascl.net/{{ page.ascl }}"><img src="https://img.shields.io/badge/ascl-{{ page.ascl }}-blue.svg?colorB=262255" alt="ascl:{{ page.ascl }}"/></a></p>
       {% endif %}
 
@@ -78,8 +78,8 @@ classes: wide
       {% endif %}
     
       <!-- Publisher -->
-      {% if page.venue %}
-      <p class="publication_venue"><strong>Published in:</strong> {{ page.venue | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% if page.journal %}
+      <p class="publication_venue"><strong>Published in:</strong> {{ page.journal | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       
       <!-- Abstract -->
@@ -91,6 +91,73 @@ classes: wide
       <!--Page content-->
       <section class="page__content" itemprop="text">
         {{ content }}
+        {% if page.publ %}
+        {% capture year %}{{ page.date | date: "%Y" }}{% endcapture %}
+        <h3 itemprop="citation">Recommended Citation</h3>
+        <p class="page__content" itemprop="text">
+          {% if page.authorlist %}
+            {% if page.authorlist contains ";" %}
+              {{ page.authorlist | split: "; " | first }} et al.
+            {% elsif page.authorlist contains "[" %}
+              {{ page.authorlist | split: " [" | first }} et al.
+            {% else %}
+              {{ page.authorlist }}.
+            {% endif %}
+          {% else %}
+            {% if page.authorlist_long contains ";" %}
+              {{ page.authorlist_long | split: "; " | first }} et al.
+            {% else %}
+              {{ page.authorlist_long }}.
+            {% endif %}
+          {% endif %}
+          {% if page.page %}
+            {% if page.volume != year %}
+              {{ year }},
+              {% if page.doi And page.doi != "" And page.doi != nil %}
+                [{{ page.journal }},](https://doi.org/{{ page.doi }})
+              {% else %}
+                {{ page.journal }},
+              {% endif %}
+              {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
+                [{{ page.volume}}, {{ page.page }}](https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }})
+              {% else %}
+                {{ page.volume }}, {{ page.page }}
+              {% endif %}
+            {% else %}
+              {% if page.doi And page.doi != "" And page.doi != nil %}
+                [{{ page.journal }}{{ page.date | date: "%m" }}({{ year }})](https://doi.org/{{ page.doi }})
+              {% else %}
+                {{ page.journal }}{{ page.date | date: "%m" }}({{ year }})
+              {% endif %}
+              {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
+                [{{ page.page }}](https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }})
+              {% else %}
+                {{ page.page }}
+              {% endif %}
+            {% endif %}
+          {% elsif page.arxiv And page.arxiv != "" And page.arxiv != nil %}
+            {{ year }},
+            {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
+              [arXiv e-prints](https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}),
+            {% else %}
+              arXiv e-prints,
+            {% endif %}
+            [arXiv: {{ page.arxiv }}](https://arxiv.org/abstract/{{ page.arxiv }})
+          {% else %}
+            "{{ page.title }}", {{ page.year }}.
+            {% if page.hdl %}
+              [](https://hdl.handle.net/{{ page.hdl }})
+            {% elsif page.ascl %}
+              [](https://ascl.net/{{ page.ascl }})
+            {% endif %}
+          {% endif %}
+          {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
+            <br>
+            <br>
+            Or export the citation in many forms [here](https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}/exportcitation).
+          {% endif %}
+        </p>
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
