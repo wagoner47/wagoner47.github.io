@@ -7,4 +7,4 @@ venue: "University of Sussex"
 date: 2019-11-4
 location: "Brighton, Sussex, UK"
 ---
-Check back after the meeting!
+I gave a spotlight talk and also a [talk]({{site.baseurl}}/talk/des_winter_2019_talk) during the Large Scale Structure general session.
