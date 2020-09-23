@@ -11,7 +11,7 @@ Clicking on any of the links below will redirect you to the abstract and details
 {% include base_path %}
 
 {% for post in site.publications %}
-  {{ post.name }}
+  {{ post }}
 {% endfor %}
 
 {% for post in site.publications reversed %}
