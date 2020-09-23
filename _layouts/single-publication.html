@@ -95,20 +95,10 @@ classes: wide
         {% capture year %}{{ page.date | date: "%Y" }}{% endcapture %}
         <h3 itemprop="citation">Recommended Citation</h3>
         <p class="page__content" itemprop="text">
-          {% if page.authorlist %}
-            {% if page.authorlist contains ";" %}
-              {{ page.authorlist | split: "; " | first }} et al.
-            {% elsif page.authorlist contains "[" %}
-              {{ page.authorlist | split: " [" | first }} et al.
-            {% else %}
-              {{ page.authorlist }}.
-            {% endif %}
+          {% if page.authorlist_long contains ";" %}
+            {{ page.authorlist_long | split: "; " | first }} et al.
           {% else %}
-            {% if page.authorlist_long contains ";" %}
-              {{ page.authorlist_long | split: "; " | first }} et al.
-            {% else %}
-              {{ page.authorlist_long }}.
-            {% endif %}
+            {{ page.authorlist_long }}.
           {% endif %}
           {% if page.page %}
             {% if page.volume != year %}
