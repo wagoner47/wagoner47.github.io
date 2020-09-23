@@ -114,47 +114,49 @@ classes: wide
             {% if page.volume != year %}
               {{ year }},
               {% if page.doi And page.doi != "" And page.doi != nil %}
-                [{{ page.journal }},](https://doi.org/{{ page.doi }})
+                <a href="https://doi.org/{{ page.doi }}">{{ page.journal }}</a>
               {% else %}
                 {{ page.journal }},
               {% endif %}
               {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
-                [{{ page.volume}}, {{ page.page }}](https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }})
+                <a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}">{{ page.volume}}, {{ page.page }}</a>
               {% else %}
                 {{ page.volume }}, {{ page.page }}
               {% endif %}
             {% else %}
               {% if page.doi And page.doi != "" And page.doi != nil %}
-                [{{ page.journal }}{{ page.date | date: "%m" }}({{ year }})](https://doi.org/{{ page.doi }})
+                {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
+                  <a href="https://doi.org/{{ page.doi }}">{{ page.journal }}{{ page.date | date: "%m" }}({{ year }})</a><a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}">{{ page.page }}</a>
+                {% else %}
+                  <a href="https://doi.org/{{ page.doi }}">{{ page.journal }}{{ page.date | date: "%m" }}({{ year }}){{ page.page }}</a>
+                {% endif %}
               {% else %}
-                {{ page.journal }}{{ page.date | date: "%m" }}({{ year }})
-              {% endif %}
-              {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
-                [{{ page.page }}](https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }})
-              {% else %}
-                {{ page.page }}
+                {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
+                  <a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}">{{ page.journal }}{{ page.date | date: "%m" }}({{ year }}){{ page.page }}</a>
+                {% else %}
+                  {{ page.journal }}{{ page.date | date: "%m" }}({{ year }}){{ page.page }}
               {% endif %}
             {% endif %}
           {% elsif page.arxiv And page.arxiv != "" And page.arxiv != nil %}
             {{ year }},
             {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
-              [arXiv e-prints](https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}),
+              <a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}">arXiv e-prints,</a>
             {% else %}
               arXiv e-prints,
             {% endif %}
-            [arXiv: {{ page.arxiv }}](https://arxiv.org/abstract/{{ page.arxiv }})
+            <a href="https://arxiv.org/abstract/{{ page.arxiv }}">arXiv: {{ page.arxiv }}</a>
           {% else %}
             "{{ page.title }}", {{ page.year }}.
             {% if page.hdl %}
-              [](https://hdl.handle.net/{{ page.hdl }})
+              <a href="https://hdl.handle.net/{{ page.hdl }}"></a>
             {% elsif page.ascl %}
-              [](https://ascl.net/{{ page.ascl }})
+              <a href="https://ascl.net/{{ page.ascl }}"></a>
             {% endif %}
           {% endif %}
           {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
             <br>
             <br>
-            Or export the citation in many forms [here](https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}/exportcitation).
+            Or export the citation in many forms <a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}/exportcitation">here</a>.
           {% endif %}
         </p>
         {% endif %}
