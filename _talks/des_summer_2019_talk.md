@@ -1,6 +1,7 @@
 ---
 title: "Systematics Mitigation with Gaussian Processes"
 collection: talks
+permalink: /talks/des-summer-2019-talk
 type: "Parallel Session"
 venue: "DES Summer 2019 Collaboration Meeting"
 date: 2019-06-20
