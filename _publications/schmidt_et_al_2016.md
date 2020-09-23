@@ -1,6 +1,5 @@
 ---
-title: Examining the relationships between colour, Teff, and [M/H] for APOGEE K and M dwarfs
-typeset_title: Examining the relationships between colour, $T_{\rm eff}$, and [M/H] for APOGGE K and M dwarfs
+title: Examining the relationships between colour, $T_{\rm eff}$, and [M/H] for APOGGE K and M dwarfs
 collection: publications
 authorlist: Sarah J. Schmidt, __Erika L. Wagoner__, Jennifer A. Johnson, _et al_
 authorlist_long: Sarah J. Schmidt; Erika L. Wagoner; Jennifer A. Johnson; James R. A. Davenport; Keivan G. Stassun; Diogo Souto; Jian Ge
