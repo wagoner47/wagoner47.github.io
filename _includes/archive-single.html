@@ -33,7 +33,7 @@
     {% endif %}
     <div class="publication_venue">
       {% if post.publ %}
-        <i>{% if post.journal %}{{ post.journal }}{% else %}{{ post.venue }}{% endif %}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+        <i>{% if post.journal %}{{ post.journal }}{% else %}{{ post.venue }}{% endif %}</i>, {{ post.date | default: "now" | date: "%Y" }}
       {% else %}
         {{post.date | default: "1900-01-01" | date: "%Y" }}, In Prep
       {% endif %}
