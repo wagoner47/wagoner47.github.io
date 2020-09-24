@@ -22,4 +22,4 @@ I updated definitions to allow logarithmic binning in the interpolation for CCL,
 ### Recommended citation
 The preferred citation for this code is to cite [the CCL paper](/publications/chisari-et-al-2019).
 
-You can also export the preferred citationin many formats [here](https://ui.adsabs.harvard.edu/abs/2019ascl.soft01003C/exportcitation).
+You can also export the preferred citation in many formats [here](https://ui.adsabs.harvard.edu/abs/2019ascl.soft01003C/exportcitation).
