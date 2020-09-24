@@ -35,7 +35,7 @@
       {% if post.publ == 'false' %}
         {{post.date | default: "1900-01-01" | date: "%Y" }}, In Prep
       {% else %}
-        <i>{{ post.journal }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
+        <i>{% if post.journal %}{{ post.journal }}{% else %}{{ post.venue }}{% endif %}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
       {% endif %}
     </div>
 
