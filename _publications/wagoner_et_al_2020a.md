@@ -20,3 +20,6 @@ publ: false
 
 ### Summary
 This paper presents the method I helped to develop for mitigating the effect of various observing conditions on galaxy clustering analyses. It results in a slight improvement compared to what was done in the DES Y1 analysis, but there is little change in the recovered cosmological parameters. We point out that we expect this to change when using larger data catalogs in the future.
+
+#### Comments
+Submitted to arXiv. To be submitted to MNRAS as soon as the arXiv preprint number is available.
