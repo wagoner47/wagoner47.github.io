@@ -10,6 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: $primary-color;
 
   &__inner-wrap {
     @include clearfix;
@@ -54,7 +55,6 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-  background-color: $primary-color;
 
   .site-nav {
     margin-left: 0;
