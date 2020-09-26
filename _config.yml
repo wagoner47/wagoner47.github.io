@@ -308,9 +308,8 @@ defaults:
       type: teaching
     values:
       layout: single-teaching
-      author_profile: false
+      author_profile: true
       sidebar:
-        author_profile: true
         nav: teach
   # _publications
   - scope:
