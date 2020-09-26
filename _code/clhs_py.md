@@ -1,7 +1,6 @@
 ---
 title: "clhs_py"
 collection: code
-permalink: /code/clhs_py
 excerpt: "A package for conditioned Latin Hypercube Sampling in python"
 date: 2019-06-27
 repo: "https://github.com/wagoner47/clhs_py"
