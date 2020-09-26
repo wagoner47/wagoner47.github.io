@@ -16,3 +16,76 @@ main:
     url: /cv/
   - title: "Contact"
     url: /contact/
+
+pubs:
+  - title: "Publications"
+    url: /publications/
+    children:
+      - title: "Wagoner et al. (in prep)"
+        url: /publications/wagoner_et_al_2020b/
+      - title: "Wagoner et al. (2020)"
+        url: /publications/wagoner_et_al_2020a/
+      - title: "Nicola et al. (2020)"
+        url: /publications/nicola_et_al_2020/
+      - title: "Tomooka et al. (2020)"
+        url: /publications/tomooka_et_al_2020/
+      - title: "Chisari et al. (2019)"
+        url: /publications/chisari_et_al_2019/
+      - title: "Schmidt et al. (2016)"
+        url: /publications/schmidt_et_al_2016/
+      - title: "Wagoner (2014)"
+        url: /publications/wagoner_2014/
+
+talks:
+  - title: "Talks"
+    url: /talks/
+    children:
+      - title: "January 2020"
+        url: /talks/desc_winter_2020_talk/
+      - title: "November 2019"
+        url: /talks/des_winter_2019_talk/
+      - title: "June 2019"
+        url: /talks/des_summer_2019_talk/
+
+trav:
+  - title: "Travel"
+    url: /travel/
+    children:
+      - title: "DESC Jan 2020"
+        url: /travel/desc_ua_2020/
+      - title: "DES Nov 2019"
+        url: /travel/des_sussex_2019/
+      - title: "DES Jun 2019"
+        url: /travel/des_penn_2019/
+      - title: "DES Obs"
+        url: /travel/desobs_2018/
+      - title: "DESC Jul 2018"
+        url: /travel/desc_cmu_2018/
+      - title: "DES May 2018"
+        url: /travel/des_tamu_2018/
+      - title: "DESC Feb 2018"
+        url: /travel/desc_slac_2018/
+      - title: "COTB"
+        url: /travel/cotb_2017/
+      - title: "DESC Jul 2017"
+        url: /travel/desc_sbny_2017/
+      - title: "DES Jun 2017"
+        url: /travel/des_uchicago_2017/
+
+teach:
+  - title: "Teaching"
+    url: /teaching/
+    children:
+      - title: "Physics 141"
+        url: /teaching/ta_fall14/
+      - title: "Tutor"
+        url: /teaching/osu_tutor_11-14/
+
+code:
+  - title: "Code"
+    url: /code/
+    children:
+      - title: "clhs_py"
+        url: /code/clhs_py/
+      - title: "CCL"
+        url: /code/ccl/
