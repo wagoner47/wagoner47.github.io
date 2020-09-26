@@ -308,7 +308,9 @@ defaults:
       type: teaching
     values:
       layout: single-teaching
-      author_profile: false
+      author_profile: true
+      sidebar:
+        nav: teach
   # _publications
   - scope:
       path: ""
@@ -316,6 +318,8 @@ defaults:
     values:
       layout: single-publication
       author_profile: false
+      sidebar:
+        nav: pubs
   # _talks
   - scope:
       path: ""
@@ -323,6 +327,8 @@ defaults:
     values:
       layout: single-talk
       author_profile: false
+      sidebar:
+        nav: talks
   # _code
   - scope:
       path: ""
@@ -330,6 +336,8 @@ defaults:
     values:
       layout: single-code
       author_profile: false
+      sidebar:
+        nav: code
   # _travel
   - scope:
       path: ""
@@ -337,3 +345,5 @@ defaults:
     values:
       layout: single-travel
       author_profile: false
+      sidebar:
+        nav: trav
