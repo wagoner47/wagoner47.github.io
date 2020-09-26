@@ -2,7 +2,6 @@
 title: "Lab Instructor - Physics 141"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/ta-fall14
 university: "University of Arizona"
 date: 2014-09-01
 semester: "Fall 2014"
