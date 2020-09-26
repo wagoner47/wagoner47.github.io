@@ -1,7 +1,6 @@
 ---
 title: "Dealing with Systematics at the Map Level"
 collection: talks
-permalink: /talks/desc-winter-2020-talk
 type: "Parallel Session"
 venue: "DESC Winter 2020 Collaboration Meeting"
 date: 2020-01-21
