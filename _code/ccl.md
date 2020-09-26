@@ -1,7 +1,6 @@
 ---
 title: 'CCL: Core Cosmology Library'
 collection: code
-permalink: /code/ccl
 authorlist: 'Chisari, Nora Elisa; Alonso, David; Krasue, Elisabeth; Leonard, C. Danielle [and 26 others, including **Wagoner, Erika L.**]'
 excerpt: The Core Cosmology Library (CCL) computes basic cosmological observables and provides predictions for many cosmological quantities, including distances, angular power spectra, correlation functions, halo bias and the halo mass function through state-of-the-art modeling prescriptions. Fiducial specifications for the expected galaxy distributions for the Large Synoptic Survey Telescope (LSST) are also included, together with the capability of computing redshift distributions for a user-defined photometric redshift model. Predictions for correlation functions of galaxy clustering, galaxy-galaxy lensing and cosmic shear are within a fraction of the expected statistical uncertainty of the observables for the models and in the range of scales of interest to LSST. CCL is written in C and has a python interface.
 date: 2019-01-01
