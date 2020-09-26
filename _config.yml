@@ -295,6 +295,11 @@ collections:
 
 # Defaults
 defaults:
+  - scope:
+      path: ""
+    values:
+      masthead:
+        background_color: "#ff0000"
   # _pages
   - scope:
       path: ""
@@ -308,32 +313,32 @@ defaults:
       type: teaching
     values:
       layout: single-teaching
-      author_profile: true
+      author_profile: false
   # _publications
   - scope:
       path: ""
       type: publications
     values:
       layout: single-publication
-      author_profile: true
+      author_profile: false
   # _talks
   - scope:
       path: ""
       type: talks
     values:
       layout: single-talk
-      author_profile: true
+      author_profile: false
   # _code
   - scope:
       path: ""
       type: code
     values:
       layout: single-code
-      author_profile: true
+      author_profile: false
   # _travel
   - scope:
       path: ""
       type: travel
     values:
       layout: single-travel
-      author_profile: true
+      author_profile: false
