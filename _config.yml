@@ -295,11 +295,6 @@ collections:
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-    values:
-      masthead:
-        background_color: "#ff0000"
   # _pages
   - scope:
       path: ""
