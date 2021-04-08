@@ -12,6 +12,7 @@ doi: 10.1093/mnras/stw1139
 arxiv: 1605.03732
 bibcode: 2016MNRAS.460.2611S
 publ: true
+permalink: /publication/schmidt-et-al-2016
 ---
 
 *****
