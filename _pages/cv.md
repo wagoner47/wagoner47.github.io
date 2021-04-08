@@ -13,4 +13,4 @@ a.uline {text-decoration:underline;}
 
 {% include base_path %}
 
-Click for a full PDF copy of my [résumé](/files/Erika_Wagoner_Resume.pdf) or [CV](/files/Erika_Wagoner_CV.pdf).
+Click for a full PDF copy of my [résumé](/files/ELW_Resume_online.pdf) or [CV](/files/Erika_CV_online.pdf). (Last updated 8 April, 2021)
