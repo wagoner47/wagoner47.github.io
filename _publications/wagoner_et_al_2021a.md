@@ -15,7 +15,7 @@ bibcode: 2021MNRAS.tmp..704W
 hdl: 
 ascl: 
 publ: true
-permalink: /publication/wagoner-et-al-2021a
+cite: true
 ---
 
 *****
