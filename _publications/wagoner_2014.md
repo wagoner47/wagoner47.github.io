@@ -8,7 +8,8 @@ date: 2014-05-01
 venue: The Ohio State University Knowledge Bank
 hdl: 1811/60400
 publ: true
-permalink: /publication/wagoner-2014
+cite: false
+permalink: /publications/wagoner_2014
 ---
 
 *****
