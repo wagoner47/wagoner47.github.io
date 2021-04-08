@@ -91,7 +91,7 @@ classes: wide
       <!--Page content-->
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.publ %}
+        {% if page.publ And page.cite %}
         {% capture year %}{{ page.date | date: "%Y" }}{% endcapture %}
         <h3 itemprop="citation">Recommended Citation</h3>
         <p class="page__content" itemprop="text">
