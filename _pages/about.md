@@ -8,15 +8,17 @@ redirect_from:
   - /about.html
 classes: wide
 ---
-Graduate student. PhD candidate. Cosmologist. Red panda enthusiast. Black belt. Amateur musician.
+Cosmologist. Red panda enthusiast. Black belt. Amateur musician.
 
 ## Professional
 
-I worked on a project in undergrad callibrating a color-temperature-metallicity relation for SDSS to search for low-metallicity M dwarfs. The work was done with Dr. Jennifer Johnson and Dr. Sarah Schmidt, and resulted in both my undergraduate thesis as well as a paper updating my results with a second year of data.
+I received my BS with a double major in physics and astronomy from The Ohio State University in May 2014. I then went to the University of Arizona for grad school where I worked with Dr. Eduardo Rozo in the physics department. I completed my PhD in October 2020, and the title of my dissertation was [Enabling Galaxy Clustering and Dynamics as Tools of Precision Cosmology](http://hdl.handle.net/10150/650777).
 
-My main project currently is working on an optimal method for using redMaGiC galaxies in studying [baryon acoustic oscillations](http://w.astro.berkeley.edu/~mwhite/bao/) with my advisor, Dr. Eduardo Rozo. 
+While at Ohio State, I spent the summer of 2012 working with the [Ohio State Compact Muon Solenoid (CMS) group](https://www.asc.ohio-state.edu/physics/cms/). In 2013, I began working with Dr. Jennifer Johnson and Dr. Sarah Schmidt in the Department of Astronomy as part of the [Summer Undergraduate Research Program in Astrophysics](https://astronomy.osu.edu/undergraduates/undergraduate-research/surp), and I continued working with them through July 2014. That project was working to callibrate the relationship between color, temperature, and metallicity for M dwarf stars with high-resolution spectra. The goal was to then use that relation to search for low-metallicity M dwarfs in data with lower resolution spectra but for which many more stars were observed. This research resulted in several posters and my [undergraduate thesis](http://hdl.handle.net/1811/60400), and a continuation of the project including a second year of data as well as a cross match between three different surveys resulted in my first [paper]({% post_url /publications/schmidt-et-al-2016 %}).
 
-I am also involved in a project with the LSST DESC large scale structure working group to analyze data from HSC. My portion of this is working on a way to get systematics maps from single exposure information. I am collaborating with Dr. David Alonso on this project.
+The bulk of my research as a graduate student focused on galaxy clustering cosmology, especially in photometric galaxy surveys such as the [Dark Energy Survey (DES)](https://www.darkenergysurvey.org) and the Vera C. Rubin Observatory [Legacy Survey of Space and Time (LSST)](https://www.lsst.org). My projects included developing a new method to use galaxies with photometric redshifts for baryon acoustic oscillation (BAO) analyses (for a nice description of BAO, see [here](http://w.astro.berkeley.edu/~mwhite/bao/)), mitigating the effects of observing conditions on the observed galaxy density, and a developing and forecasting a novel way to measure the Hubble constant.
+
+As a grad student, I also worked in the DES collaboration as well as the [Dark Energy Science Collaboration (DESC)](https://lsstdesc.org) of LSST, primarily within the large scale structure working group of each.
 
 
 ## Personal
