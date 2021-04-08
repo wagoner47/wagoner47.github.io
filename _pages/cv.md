@@ -13,7 +13,7 @@ a.uline {text-decoration:underline;}
 
 {% include base_path %}
 
-Click for a full PDF copy of my [résumé](/files/ELW_Resume_online.pdf) or [CV](/files/Erika_CV_online.pdf). (Last updated 8 April, 2021)
+Click for a full PDF copy of my [résumé](/files/ELW_Resume_download.pdf) or [CV](/files/Erika_CV_online.pdf). (Last updated 8 April, 2021)
 
 <div id="adobe-dc-view" style="width: 800px;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
