@@ -15,6 +15,8 @@ bibcode:
 hdl: 10150/650777
 ascl: 
 publ: true
+cite: false
+permalink: /publications/wagoner_2020
 ---
 
 *****
