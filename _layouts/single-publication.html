@@ -49,7 +49,7 @@ classes: wide
       
       <!-- Handle link -->
       {% if page.doi And page.doi != "" And page.doi != nil %}
-      <p class="publication_date"><i class="ai ai-doi ai-fw"></i><strong>doi:</strong><a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></p>
+      <p class="publication_date"><i class="ai ai-doi ai-fw" aria-hidden="true"></i><strong>doi:</strong><a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></p>
       {% endif %}
       {% if page.hdl And page.hdl != "" And page.hdl != nil %}
       <p class="publication_date"><i class="fas fa-square fa-fw" style="color:White"></i><strong>hdl:</strong><a href="https://hdl.handle.net/{{ page.hdl }}">{{ page.hdl }}</a></p>
@@ -79,7 +79,7 @@ classes: wide
     
       <!-- Publisher -->
       {% if page.journal %}
-      <p class="publication_venue"><strong>Published in:</strong> {{ page.journal | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      <p class="publication_venue"><i class="fas fa-book-open fa-fw" aria-hidden="true"></i><strong>Published in:</strong> {{ page.journal | markdownify | remove: "<p>" | remove: "</p>" }}</p>
       {% endif %}
       
       <!-- Abstract -->
