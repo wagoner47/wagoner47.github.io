@@ -102,10 +102,10 @@ analytics:
 author:
   name             : "Erika Lynn Wagoner"
   avatar           : "images/Erika_Wagoner_in_Chile.JPG"
-  bio              : "Physics PhD student working in cosmology and astrophysics"
+  bio              : "Physicist working in cosmology and astrophysics"
   location         : 
-  employer         : "University of Arizona"
-  email            : "wagoner47@email.arizona.com"
+  employer         : 
+  email            : "wagoner47+website@email.arizona.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        : "wagoner47"
