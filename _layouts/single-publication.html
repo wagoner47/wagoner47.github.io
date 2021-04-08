@@ -49,16 +49,16 @@ classes: wide
       
       <!-- Handle link -->
       {% if page.doi And page.doi != "" And page.doi != nil %}
-      <p class="publication_date"><a href="https://doi.org/{{ page.doi }}">doi:{{ page.doi }}</a></p>
+      <p class="publication_date"><i class="ai ai-doi ai-fw"></i><strong>doi:</strong><a href="https://doi.org/{{ page.doi }}">{{ page.doi }}</a></p>
       {% endif %}
       {% if page.hdl And page.hdl != "" And page.hdl != nil %}
-      <p class="publication_date"><a href="https://hdl.handle.net/{{ page.hdl }}">hdl:{{ page.hdl }}</a></p>
+      <p class="publication_date"><i class="fas fa-square fa-fw" style="color:White"></i><strong>hdl:</strong><a href="https://hdl.handle.net/{{ page.hdl }}">{{ page.hdl }}</a></p>
       {% endif %}
       {% if page.arxiv And page.arxiv != "" And page.arxiv != nil %}
-      <p class="publication_date"><a href="https://arxiv.org/abs/{{ page.arxiv }}">arxiv:{{ page.arxiv }}</a></p>
+      <p class="publication_date"><i class="ai ai-arxiv ai-fw"></i><strong>arxiv:</strong><a href="https://arxiv.org/abs/{{ page.arxiv }}">{{ page.arxiv }}</a></p>
       {% endif %}
       {% if page.bibcode And page.bibcode != "" And page.bibcode != nil %}
-      <p class="publication_date"><strong>Bibcode: </strong><a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}/abstract">{{ page.bibcode }}</a></p>
+      <p class="publication_date"><i class="ai ai-ads ai-fw"></i><strong>ads:</strong><a href="https://ui.adsabs.harvard.edu/abs/{{ page.bibcode }}/abstract">{{ page.bibcode }}</a></p>
       {% endif %}
       {% if page.ascl And page.ascl != "" And page.ascl != nil %}
       <p class="publication_date"><a href="https://ascl.net/{{ page.ascl }}"><img src="https://img.shields.io/badge/ascl-{{ page.ascl }}-blue.svg?colorB=262255" alt="ascl:{{ page.ascl }}"/></a></p>
