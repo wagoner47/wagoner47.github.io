@@ -12,7 +12,7 @@ doi: 10.3847/1538-4395/ab1658
 arxiv: 1812.05995
 bibcode: 2019ApJS..242....2C
 publ: true
-permalink: /publication/chisari-et-al-2019
+cite: true
 ---
 
 *****
