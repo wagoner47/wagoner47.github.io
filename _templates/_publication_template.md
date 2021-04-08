@@ -14,6 +14,7 @@ bibcode:
 hdl: 
 ascl: 
 publ: false
+permalink: /publication/title
 ---
 
 *****
