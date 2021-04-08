@@ -15,6 +15,7 @@ bibcode: 2020arXiv201011324W
 hdl: 
 ascl: 
 publ: true
+permalink: /publication/wagoner-et-al-2021b
 ---
 
 *****
