@@ -13,7 +13,7 @@ doi: 10.1093/mnras/staa2841
 arxiv: 2003.11555
 bibcode: 2020MNRAS.499.1291T
 publ: true
-permalink: /publication/tomooka-et-al-2020
+cite: true
 ---
 
 *****
