@@ -12,6 +12,7 @@ doi: 10.1088/1475-7516/2020/03/044
 arxiv: 1912.08209
 bibcode: 2020JCAP...03..044N
 publ: true
+permalink: /publication/nicola-et-al-2020
 ---
 
 *****
