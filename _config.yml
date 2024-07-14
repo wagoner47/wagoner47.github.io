@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast" # "default", "air", "aqua", "contrast", "d
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Erika Lynn Wagoner"
+title                    : "Erika Lynn Hartman"
 title_separator          : "-"
-name                     : "Erika Lynn Wagoner"
-description              : "Erika's academic homepage"
+name                     : "Erika Lynn Hartman"
+description              : "Erika's homepage"
 url                      : "https://wagoner47.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "wagoner47/wagoner47.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -100,12 +100,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Erika Lynn Wagoner"
+  name             : "Erika Lynn Hartman"
   avatar           : "images/Erika_Wagoner_in_Chile.JPG"
-  bio              : "Physicist working in cosmology and astrophysics"
+  bio              : "Data analyst working in modeling, ML, and AI, with a background in cosmology"
   location         : 
   employer         : 
-  email            : "wagoner47+website@email.arizona.com"
+  email            : "wagoner47+website@gmail.com"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        : "wagoner47"
@@ -120,7 +120,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "erika-lynn-wagoner-138178188" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "erika-lynn-hartman-138178188" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   googlescholar    : "https://scholar.google.com/citations?user=9ffsq-UAAAAJ&hl=en"
   orcid            : "0000-0002-9461-944X"
   pinterest        :
