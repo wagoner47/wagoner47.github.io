@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 classes: wide
 ---
-Cosmologist. Red panda enthusiast. Black belt. Amateur musician.
+Analyst. Cosmology PhD. Red panda enthusiast. Black belt. Amateur musician.
 
 ## Professional
 
@@ -20,11 +20,13 @@ The bulk of my research as a graduate student focused on galaxy clustering cosmo
 
 As a grad student, I also worked in the DES collaboration as well as the [Dark Energy Science Collaboration (DESC)](https://lsstdesc.org) of LSST, primarily within the large scale structure working group of each.
 
+I finished my PhD in 2020, and started working in industry in 2021. I currently work at Stellar Science Ltd Co, for which I work as an analyst working in AI/ML, and sometimes doing space-related things. I am most proud of the Small Business Innovative Research (SBIR) and Small Business Technology Transfer (STTR) projects for which I have helped and/or led proposals and those for which I have led the project. These include several in reinforcement learning (RL) as well as one in image processing. I have also joined the recruitment team, which has taught me a lot as well.
+
 
 ## Personal
 I studied karate for 6 years while in grade school, and attained the rank of third degree black belt. In addition to this, I was an instructor, especially for the kid's program at my karate school. I'm currently looking to start up some form of martial arts again.
 
-I love music, and I play flute, piccolo, and some piano. I am also actively involved with my church music program, as a member of both the adult handbell choir and the chancel choir, in which I sing second soprano.
+I love music, and I play flute, piccolo, and some piano.
 
 I am an occaisonal knitter, although I always feel guilty that I don't spend more time on it.
 
